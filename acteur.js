@@ -20,4 +20,15 @@ class Acteur
         // Insertion de l'image dans le contenu HTML de la page
         document.body.appendChild( this.image ) ;
     }
+
+    setPosition( x, y )
+    {
+        // Repositionne l'acteur
+        this.x = x ;
+        this.y = y ;
+
+        // Reposieitionne l'image
+        this.image.style.left = x + "px" ;
+        this.image.style.top = y + "px" ;
+    }
 }
