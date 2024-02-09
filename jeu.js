@@ -1,3 +1,5 @@
+// Depot GIHUB: git clone https://github.com/axelrinaldiwanadoofr/TP_JeuJS.git
+
 
 var mur1 = new Acteur( 50, 50, "images/mur.bmp" ) ;
 
